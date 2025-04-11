@@ -22,7 +22,7 @@ namespace EX1_MVC_CRUD_EF.Models
     
         public int OrderID { get; set; }
         public string CustomerID { get; set; }
-        public int EmployeeID { get; set; }
+        public Nullable<int> EmployeeID { get; set; }
         public Nullable<System.DateTime> OrderDate { get; set; }
         public Nullable<System.DateTime> RequiredDate { get; set; }
         public Nullable<System.DateTime> ShippedDate { get; set; }

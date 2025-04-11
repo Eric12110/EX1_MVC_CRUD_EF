@@ -12,12 +12,18 @@ namespace EX1_MVC_CRUD_EF.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Products_by_Category
+    public partial class spt_monitor
     {
-        public string CategoryName { get; set; }
-        public string ProductName { get; set; }
-        public string QuantityPerUnit { get; set; }
-        public Nullable<short> UnitsInStock { get; set; }
-        public bool Discontinued { get; set; }
+        public System.DateTime lastrun { get; set; }
+        public int cpu_busy { get; set; }
+        public int io_busy { get; set; }
+        public int idle { get; set; }
+        public int pack_received { get; set; }
+        public int pack_sent { get; set; }
+        public int connections { get; set; }
+        public int pack_errors { get; set; }
+        public int total_read { get; set; }
+        public int total_write { get; set; }
+        public int total_errors { get; set; }
     }
 }

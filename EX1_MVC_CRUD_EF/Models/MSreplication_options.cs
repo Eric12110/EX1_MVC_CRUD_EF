@@ -12,11 +12,13 @@ namespace EX1_MVC_CRUD_EF.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Customer_and_Suppliers_by_City
+    public partial class MSreplication_options
     {
-        public string City { get; set; }
-        public string CompanyName { get; set; }
-        public string ContactName { get; set; }
-        public string Relationship { get; set; }
+        public string optname { get; set; }
+        public bool value { get; set; }
+        public int major_version { get; set; }
+        public int minor_version { get; set; }
+        public int revision { get; set; }
+        public int install_failures { get; set; }
     }
 }

@@ -9,8 +9,8 @@ namespace EX1_MVC_CRUD_EF.Controllers
 {
     public class ProductController : Controller
     {
-        private NorthwindEntities1 _context = new NorthwindEntities1();
-        private NorthwindEntities1 Context => this._context;
+        private masterEntities _context = new masterEntities();
+        private masterEntities Context => this._context;
         // GET: Product
         public ActionResult Index()
         {

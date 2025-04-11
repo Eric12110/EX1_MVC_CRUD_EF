@@ -21,7 +21,6 @@ namespace EX1_MVC_CRUD_EF.Models
         }
     
         public int CategoryID { get; set; }
-        public Nullable<int> ParentCategoryID { get; set; }
         public string CategoryName { get; set; }
         public string Description { get; set; }
         public byte[] Picture { get; set; }
