@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>EX_MVC_CRUD_EF</id>
+    <version>1.0.0</version>
+    <authors>eric.huang</authors>
+    <owners>eric.huang</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>這是 EX1_MVC_CRUD_EF 的 NuGet 套件，用於測試上傳到 JFrog。</description>
+    <tags>test library jfrog</tags>
+  </metadata>
+  <files>
+    <file src="EX1_MVC_CRUD_EF\bin\EX1_MVC_CRUD_EF.dll" target="lib\net472\" />
+  </files>
+</package>
