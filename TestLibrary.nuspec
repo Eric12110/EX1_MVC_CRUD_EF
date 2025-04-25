@@ -8,8 +8,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>這是 EX1_MVC_CRUD_EF 的 NuGet 套件，用於測試上傳到 JFrog。</description>
     <tags>test library jfrog</tags>
+    <dependencies>
+      <!-- 如果有需要指定相依套件可以放這裡，目前先留空 -->
+    </dependencies>
   </metadata>
-  <files>
-    <file src="EX1_MVC_CRUD_EF\bin\EX1_MVC_CRUD_EF.dll" target="lib\net472\" />
-  </files>
 </package>
